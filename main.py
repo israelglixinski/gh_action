@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 repo_path = "."
 
 # Definir a data inicial (1º de janeiro de 2025, 00:00)
-start_date  = datetime(2025,  1,  15,  0, 0)
-end_date    = datetime(2025, 2, 28, 23, 0)  # Última hora do mês
+start_date  = datetime(2023,  1,  1,  0, 0)
+end_date    = datetime(2023, 8, 30, 23, 0)  # Última hora do mês
 
 # Criar um arquivo de log para modificar em cada commit
 file_path = os.path.join(repo_path, "commit.txt")
